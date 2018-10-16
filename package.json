@@ -1,0 +1,33 @@
+{
+  "name": "@epegzz/es6-enum",
+  "version": "1.0.0",
+  "description": "ES6 enum creation utility",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epegzz/es6-enum.git"
+  },
+  "keywords": [
+    "ES6",
+    "enum"
+  ],
+  "author": "Daniel Schäfer <epegzz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/epegzz/es6-enum/issues"
+  },
+  "homepage": "https://github.com/epegzz/es6-enum#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0"
+  }
+}
