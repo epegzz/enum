@@ -1,6 +1,6 @@
 {
   "name": "@epegzz/es6-enum",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ES6 enum creation utility",
   "main": "dist/index.js",
   "scripts": {
@@ -25,9 +25,7 @@
   "devDependencies": {
     "@babel/cli": "^7.0.0",
     "@babel/core": "^7.0.0",
-    "@babel/preset-env": "^7.0.0"
-  },
-  "dependencies": {
+    "@babel/preset-env": "^7.0.0",
     "@babel/polyfill": "^7.0.0"
   }
 }
